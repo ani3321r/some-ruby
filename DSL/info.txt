@@ -1,0 +1,19 @@
+Domain-Specific Languages (DSLs) in Ruby are one of its most fascinating features.
+They allow you to create specialized, highly readable "mini-languages" for specific tasks.
+This is possible because Ruby's syntax and metaprogramming capabilities make it easy to create
+expressive code that looks almost like natural language.
+
+A DSL is a concise, human-readable syntax designed to solve a particular domain problem.
+For example:
+    Rake is a DSL for task automation.
+    RSpec is a DSL for testing.
+
+Types of DSLs
+    Internal DSLs: Built within the language itself (like RSpec or Rails routes).
+    External DSLs: Require their own syntax and parser (e.g., SQL).
+
+Key Features of Ruby for DSLs
+    Blocks and Procs: Simplify passing behavior around.
+    Dynamic Method Definitions: Methods can be created on the fly.
+    Instance Evaluation (instance_eval): Executes code in the context of an object.
+    Keyword Arguments: Enhance readability and reduce boilerplate.
